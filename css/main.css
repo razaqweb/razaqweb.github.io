@@ -804,9 +804,19 @@ video {
   color: rgb(246 107 14 / var(--tw-text-opacity));
 }
 
+.text-tableOrange {
+  --tw-text-opacity: 1;
+  color: rgb(238 127 54 / var(--tw-text-opacity));
+}
+
 .text-darkBlue {
   --tw-text-opacity: 1;
   color: rgb(17 43 60 / var(--tw-text-opacity));
+}
+
+.text-orange-300 {
+  --tw-text-opacity: 1;
+  color: rgb(253 186 116 / var(--tw-text-opacity));
 }
 
 .logo {
