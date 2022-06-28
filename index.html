@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Razaq Mzale &mdash; Front-End Web Developer</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/Avatar Me.png" type="image/x-icon" />
+    <!-- Tailwind CSS Output -->
+    <link rel="stylesheet" href="css/main-compress.css" />
+
+    <!-- Google Fonts: Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/e3a08b5aeb.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- JavaScript -->
+    <script defer src="index.js"></script>
+  </head>
+
+  <body class="text-brandWhite font-roboto">
+    <!-- Loader -->
+    <div class="loader-wrapper">
+      <span class="loader"></span>
+    </div>
+
+    <!-- Header and Nav -->
+    <header
+      id="home"
+      class="flex items-center relative justify-between container px-16 pt-10 pb-12 md:pb-24 mx-auto bg-darkBlue"
+    >
+      <div class="logo">
+        <a href="#home" class="logo-link">
+          <p class="text-brand">
+            {<span class="span-r text-brandWhite">R</span>}
+          </p>
+        </a>
+      </div>
+
+      <nav
+        class="navbar relative hidden lg:flex space-x-16 tracking-wider text-lg"
+      >
+        <a href="#hero" class="nav-link link-main">Home</a>
+        <a href="#about" class="nav-link link-main">About Me</a>
+        <a href="#work" class="work-link link-main">My Work</a>
+        <a href="#contact" class="nav-link link-main">Contact</a>
+      </nav>
+
+      <div class="hamburger-icon lg:hidden">
+        <span class="hamburger-tp"></span>
+        <span class="hamburger-md"></span>
+        <span class="hamburger-bt"></span>
+      </div>
+      <div
+        class="navbar-small mx-auto flex flex-col lg:hidden space-y-6 tracking-wider text-lg"
+      >
+        <a href="#hero" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About Me</a>
+        <a href="#work" class="work-link">My Work</a>
+        <a href="#contact" class="nav-link">Contacts</a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="container reg-container bg-darkBlue">
+        <div class="text-container mx-auto lg:mx-28 mb-12">
+          <h1
+            class="text-center md:text-left text-2xl md:text-4xl lg:text-5xl mb-4 font-black"
+          >
+            Hi, my name is Razaq Mzale<span class="text-brand">.</span>
+          </h1>
+          <p class="text-center text-xl md:text-left font-bold md:text-4xl">
+            I am a front-end web developer and UI designer<span>.</span>
+          </p>
+        </div>
+        <div class="btn-container">
+          <button class="btn btn-secondary">
+            <a
+              href="#work"
+              class="work-link text-lg md:text-xl tracking-wide font-bold"
+              >View my Work</a
+            >
+          </button>
+          <button class="btn btn-primary">
+            <a
+              href="#contact"
+              class="contact-link text-lg md:text-xl tracking-wide font-bold"
+              >Get in Touch</a
+            >
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container mx-auto px-16 pt-12 md:pt-16 bg-lightDarkBlue">
+        <div class="flex flex-col lg:flex-row justify-between lg:space-x-16">
+          <div class="self-end lg:ml-28 mb-12 lg:mb-0 mx-auto">
+            <img src="images/Avatar Me.png" alt="" />
+          </div>
+          <div class="text-center lg:text-left w-full lg:w-1/2">
+            <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-8">
+              About Me
+            </h2>
+            <p
+              class="text-sm text-left md:text-xl font-normal tracking-wide leading-7 pb-12"
+            >
+              I am located in Zanzibar, Tanzania. I am passionate about building
+              and designing neat and eye-catching websites.
+              <br />
+              <br />
+              I have a simple workflow that has served me and my clients well.
+              Design first. Build later. First make the client happy with the
+              design, then start building the design into a website they will be
+              happy with.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Section 
+    This Section stays hidden until link is clicked -->
+
+    <section id="work" class="hidden">
+      <div
+        class="container reg-container justify-center md:justify-start flex flex-wrap bg-darkBlue"
+      >
+        <a href="https://razaqweb.github.io/haven/" target="_blank">
+          <div
+            class="portfolio-container"
+            style="
+              background-image: linear-gradient(#0b3a5a9d, #0b3a5afa),
+                url('./images/children2.jpg');
+            "
+          >
+            <span class="text-xl md:text-3xl font-black">Haven's Daycare</span>
+          </div>
+        </a>
+        <a href="https://razaqweb.github.io/bespoke/" target="_blank">
+          <div
+            class="portfolio-container"
+            style="
+              background-image: linear-gradient(#0b3a5a9d, #0b3a5afa),
+                url('./images/hero2.jpg');
+            "
+          >
+            <span class="text-xl md:text-3xl font-black">Bespoke</span>
+          </div>
+        </a>
+        <a href="https://razaqweb.github.io/eoni/" target="_blank">
+          <div
+            class="portfolio-container"
+            style="
+              background-image: linear-gradient(#0b3a5a9d, #0b3a5afa),
+                url('./images/Kid.jpg');
+            "
+          >
+            <span class="text-xl md:text-3xl font-black">Eoni</span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <footer class="bg-brandWhite container reg-container" id="contact">
+      <div class="text-center mb-12">
+        <div class="logo mb-12">
+          <p class="text-brand">{<span class="text-darkBlue">R</span>}</p>
+        </div>
+
+        <div
+          class="flex relative flex-col lg:flex-row justify-around text-darkBlue"
+        >
+          <!-- Email and Whatsapp -->
+          <div class="mx-auto">
+            <p class="footer-text">
+              Email:
+              <a
+                href="mailto:rmmzale@outlook.com"
+                target="_blank"
+                class="font-bold"
+                >rmmzale@outlook.com</a
+              >
+            </p>
+            <p class="footer-text">
+              WhatsApp:
+              <a
+                href="https://api.whatsapp.com/send?phone=255778009925"
+                target="_blank"
+                class="font-bold"
+                >+255778009925</a
+              >
+            </p>
+          </div>
+
+          <!-- Line Seperator -->
+          <div
+            class="lg:absolute footer-line h-20 w-0.5 bg-darkBlue rotate-90 lg:rotate-0 mx-auto"
+          ></div>
+          <!-- Social Media icons -->
+          <div class="flex space-x-6 md:space-x-12 mx-auto mb-6 lg:mb-12">
+            <a href="https://www.linkedin.com/in/rmmzale/" target="_blank"
+              ><i class="fa-brands fa-linkedin text-3xl lg:text-5xl"></i
+            ></a>
+            <a href="https://www.instagram.com/rmmzale" target="_blank">
+              <i class="fa-brands fa-instagram text-3xl lg:text-5xl"></i>
+            </a>
+            <a href="https://github.com/razaqweb" target="_blank">
+              <i class="fa-brands fa-github text-3xl lg:text-5xl"></i>
+            </a>
+            <a href="https://twitter.com/rMMzale" target="_blank">
+              <i class="fa-brands fa-twitter text-3xl lg:text-5xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <p
+        class="text-center text-xs md:text-xl font-normal tracking-wide leading-7 pb-2 text-darkBlue"
+      >
+        Mataka Street, Chukwani, Zanzibar. <br /><br />
+        &copy; Copyright <span class="copyright"></span>. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
