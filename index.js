@@ -12,7 +12,7 @@ const hamburgerIcon = document.querySelector(".hamburger-icon");
 const rLetter = document.querySelector(".span-r");
 const navBarSmall = document.querySelector(".navbar-small");
 const logoLink = document.querySelector(".logo-link");
-const contactBtn = document.querySelector(".contact-link");
+const contactBtn = document.querySelector(".btn-primary");
 
 // Copyright year.
 copyright.textContent = new Date().getFullYear();
