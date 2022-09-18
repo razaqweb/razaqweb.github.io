@@ -1,0 +1,73 @@
+@import "./variables.scss";
+@import "./mixins.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: $font-sora;
+  background-color: $primary-color;
+  color: $secondary-color;
+  padding: 2.4rem;
+  font-weight: 400;
+
+  @include for-tablet-portrait-up {
+    padding: 4rem;
+  }
+
+  @include for-desktop-up {
+    padding: 6.4rem;
+  }
+}
+
+header {
+  padding-bottom: 2.4rem;
+
+  @include for-desktop-up {
+    padding-bottom: 4rem;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $secondary-color;
+}
+
+ul {
+  list-style: none;
+}
+
+hr {
+  border-color: $accent-color;
+  border-bottom: none;
+  margin: 3.2rem 0;
+
+  @include for-tablet-portrait-up {
+    margin: 6.4rem 0;
+  }
+
+  @include for-desktop-up {
+    margin: 7.2rem 0;
+  }
+}
+
+.secondary-heading {
+  font-family: $font-antonio;
+  font-size: 2.4rem;
+  align-self: flex-start;
+
+  @include for-tablet-portrait-up {
+    font-size: 4rem;
+  }
+
+  @include for-desktop-up {
+    font-size: 5.6rem;
+  }
+}

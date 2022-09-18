@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Razaq Mzale - Web Developer</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/css/styles.css" />
+    <link rel="shortcut icon" href="/img/Avatar Me.png" type="image/x-icon">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Antonio:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <span class="name">Razaq Mzale</span>
+        <ul class="nav-list">
+          <li class="nav-list-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-list-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <hr />
+    </header>
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-heading-container">
+          <h1 class="hero-heading">WEB DEVELOPER<br />&<br />DESIGNER<span class="full-stop">.</span>
+          </h1>
+        </div>
+        <hr class="header-hr" />
+      </section>
+
+      <section class="about" id="about">
+        <div class="about-container">
+          <!-- Flex-Left -->
+          <div class="paragraph-container">
+            <p class="paragraph">
+              Hi, my name is Razaq Mzale.
+              <br />
+              <br />
+              I am a web developer based in Zanzibar, Tanzania.
+              <br />
+              <br />
+              I enjoy desigining and building beautiful and eye-catching
+              websites with neat and user-friendly interfaces.
+              <br>
+              <br>
+              As for languages, all my projects are built with <span>HTML</span>, <span>SASS</span>, and <span>Javascript</span>. For more complex projects I work with <span>Nextjs</span>.
+            </p>
+          </div>
+          <h2 class="secondary-heading">ABOUT</h2>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <hr />
+        <h2 class="projects-heading">PROJECTS</h2>
+        <div class="projects-grid">
+          <!-- Row 1 -->
+          <div class="web-img" id="web-img1"><img src="/img/inno-screenshot.png" alt=""></div>
+          <div class="web-profile" id="profile1">
+            <h2 class="web-profile-heading">INNO - YOUTH CENTRE</h2>
+            <p class="web-profile-type">Project Type: Personal</p>
+            <button class="btn-web">
+              <a href="https://razaqweb.github.io/inno/" target="_blank" class="web-link">Visit Site</a>
+            </button>
+          </div>
+
+          <!-- Row 2 -->
+          <div class="web-profile" id="profile2">
+            <h2 class="web-profile-heading">COUNTRY SEARCH</h2>
+            <p class="web-profile-type">Project Type: Commission</p>
+            <button class="btn-web">
+              <a href="https://next-country-search.vercel.app/" target="_blank" class="web-link">Visit Site</a>
+            </button>
+          </div>
+          <div class="web-img" id="web-img2"><img src="img/country-search-thumbnail.png" alt=""></div>
+
+
+          <!-- Row 3 -->
+          <div class="web-img" id="web-img3"><img src="img/bespoke-thumbnail.png" alt=""></div>
+          <div class="web-profile" id="profile3">
+            <h2 class="web-profile-heading">BESPOKE - MEN'S FASHION</h2>
+            <p class="web-profile-type">Project Type: Personal</p>
+            <button class="btn-web">
+              <a href="https://razaqweb.github.io/bespoke/" target="_blank" class="web-link">Visit Site</a>
+            </button>
+          </div>
+
+          </div>
+        </div>
+        <hr>
+      </section>
+    </main>
+    <footer id="contact">
+      <h2 class="secondary-heading">LET'S CONNECT!</h2>
+      <div class="contact-links-container">
+        <span>instagram: <a href="https://instagram.com/razaqweb" target="_blank" class="contact-link">@razaqweb</a></span>
+        <span>twitter: <a href="https://twitter.com/rmMzale" class="contact-link">@rMMzale</a></span>
+        <span
+          >github:
+          <a href="https://github.com/razaqweb" target="_blank" class="contact-link">github.com/razaqweb</a></span
+        >
+        <span
+          >email: <a href="mailto:rmmzale@outlook.com" target="_blank" class="contact-link">rmmzale@outlook.com</a></span
+        >
+        <span class="copyright">&copy; Copyright <span class="copyright-date"></span>. Developed by Razaq Mzale. All rights reserved.</span>
+      </div>
+      
+    </footer>
+  </body>
+</html>
