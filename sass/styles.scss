@@ -94,6 +94,7 @@ header hr {
 .paragraph-container.hidden {
   transform: translateX(-50%);
   -ms-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   opacity: 0;
 }
@@ -163,6 +164,7 @@ img {
 .web-img.hidden {
   transform: translateX(100%);
   -ms-transform: translateX(100%);
+  -moz-transform: translateX(100%);
   -webkit-transform: translateX(100%);
   opacity: 0;
 }
@@ -301,6 +303,7 @@ footer .secondary-heading {
   opacity: 0;
   transform: translateY(50%);
   -ms-transform: translateY(50%);
+  -moz-transform: translateY(50%);
   -webkit-transform: translateY(50%);
 }
 
@@ -326,6 +329,7 @@ footer .secondary-heading {
 #profile3.hidden {
   transform: translateX(50%);
   -ms-transform: translateX(50%);
+  -moz-transform: translateX(50%);
   -webkit-transform: translate(50%);
   opacity: 0;
 }
